@@ -44,6 +44,10 @@ nav{
     font-weight: bold;
     font-size: 16px;
 }
+
+.primary-btn:hover {
+  background-color: red;
+}
 /* .btn1{
    
 } */
@@ -67,6 +71,7 @@ nav{
    align-items: center;
    justify-content: space-between;
    margin: 140px 116px;
+   background-color: rgba(78, 71, 255, 0.1);
 
 }
 .preview-content{
@@ -122,8 +127,55 @@ nav{
    font-weight: bold;
 }
 .primary-txt{
+    
     color:#bebcbc ;
     font-size: 20px;
     font-weight: 400;
     margin-bottom: 10px;
 }
+
+/* review-section */
+
+/* .review-section{
+    max-width: 1140px;
+    height: 342px;
+    background-color: aqua;
+    display: flex;
+} */
+
+.newsletter{
+   margin: 140px 116px;
+   background-color: rgba(78, 71, 255, 0.1);
+   display: flex;
+   justify-content: space-around;
+   gap: 203px;
+}
+.newsletter-form{
+
+}
+.newsletter-form h1{
+      font-size: 72px;
+      font-weight: bold;
+      margin-top: 184px;
+     
+}
+.newsletter-form input[type="email"],
+.newsletter-form input[type="name"],
+.newsletter-form textarea {
+  
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+  width: 100%; 
+  border-radius: 10px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+  
+}
+.newsletter-form .name{
+      font-size: 18px;
+      font-weight: normal;
+}
+
+
+
+
