@@ -87,3 +87,43 @@ nav{
     font-weight: 400px;
     color: #757575;
 }
+
+
+/* productive-section */
+
+.productive-section {
+    max-width: 1140px;
+    height: 306px;
+    border-radius: 24px;
+    padding: 50px 80px;
+    background-color: rgba(78, 71, 255, 0.1);
+    margin: 140px 116px;
+}
+
+.productive-section-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.productive-section h1 {
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+
+}
+.productive-section-text{
+
+    /* margin-bottom: 10px; */
+}
+.primary-color{
+   color: #4E47FF;
+   font-size: 60px;
+   font-weight: bold;
+}
+.primary-txt{
+    color:#bebcbc ;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
