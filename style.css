@@ -7,7 +7,7 @@
     "wdth" 100;
 }
 
-body{
+ body{
     margin: 0;
     padding: 0;
 }
@@ -15,7 +15,7 @@ header{
     background-image: url(Assets/Hero-bg.png);
     background-repeat: no-repeat;
     height: 698px; 
-    width:100% ;
+    width: 100%;
     background-size: cover;
     background-position:center;
 }
@@ -61,5 +61,29 @@ nav{
     margin-bottom: 30px;
     
 }
+/* preview */
+.preview{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin: 140px 116px;
 
- 
+}
+.preview-content{
+ text-align:left;
+}
+.primary-img img{
+   border-radius: 36px;
+   height: 328px;
+   max-width: 403px;
+}
+.preview-title{
+  font-size: 42px;
+  color: #252432;
+  font-weight: bold;
+}
+.preview-descriptions{
+    font-size: 24px;
+    font-weight: 400px;
+    color: #757575;
+}
